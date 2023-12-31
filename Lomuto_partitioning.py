@@ -8,3 +8,6 @@ def lomuto_partition(n, l, r):
 
     n[l], n[s] = n[s], n[l]
     return s
+
+n = [7, 2, 8, 14, 4, 12, 5]
+print(lomuto_partition(n, 0, len(n) - 1))
